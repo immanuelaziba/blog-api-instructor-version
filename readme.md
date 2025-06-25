@@ -24,9 +24,13 @@ A full-featured Node.js + Express REST API for blog management with:
 - Multer for file uploads
 - Postman for testing
 
-## 📦 Installation
+## 🔧 Setup Instructions
 
 ```bash
-git clone https://github.com/immanuelaziba/blog-api-instructor-version.git
+git clone https://github.com/aziba/blog-api-instructor-version.git
 cd blog-api-instructor-version
 npm install
+cp .env.example .env
+
+# Add your environment variables to .env
+npm run dev
